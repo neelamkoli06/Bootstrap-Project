@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- js bunddle -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- -----------navbar------------------------- -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Company</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Dropdown 1</a>
+                            <a class="dropdown-item dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Deep Dropdown</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Dropdown 1</a>
+                                <a class="dropdown-item" href="#">Dropdown 2</a>
+                                <a class="dropdown-item" href="#">Dropdown 3</a>
+                                <a class="dropdown-item" href="#">Dropdown 4</a>
+                                <a class="dropdown-item" href="#">Dropdown 5</a>
+                            </div>
+
+                            <a class="dropdown-item" href="#">Dropdown 2</a>
+                            <a class="dropdown-item" href="#">Dropdown 3</a>
+                            <a class="dropdown-item" href="#">Dropdown 4</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-danger float-right">Get Started</button>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="">
+            <img src="Assest/images/home-image.avif" alt=""  class="img-thumbnail" style="filter: brightness(0.4);">
+        </div>
+        <div id="Homeimage-text">
+            <h1 class="h1 text-bold" data-aos="fade-up">Welcome to Our Website</h1>
+            <p class="" data-aos="fade-up">We are team of talented designers making websites with Bootstrap</p>
+            <input type="text" name="" id="" data-aos="fade-up">
+            <button class="btn btn-danger pl-4 pr-4 pt-2 pb-2" data-aos="fade-up">Subscribe</button>
+        </div>
+
+    <div id="clients" class="container-fluid" data-aos="fade-up">
+        <div class="row">
+            <div class="col-6 col-md-2" >
+                <img src="Assest/images/client-1.png" alt="Client 1" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="Assest/images/client-2.png" alt="Client 2" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="Assest/images/client-3.png" alt="Client 3" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="Assest/images/client-4.png" alt="Client 4" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="Assest/images/client-5.png" alt="Client 5" class="img-fluid">
+            </div>
+            <div class="col-6 col-md-2">
+                <img src="Assest/images/client-6.png" alt="Client 6" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------------- -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 p-5" id="section-1-1">
+            <div id="card1" class="m-5">About Us</div>
+            <h2 class="ml-5">Ducimus rerum libero reprehenderit cumque</h2>
+            <p class="ml-5">Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim
+                reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt
+                voluptatem tempora deleniti soluta.</p>
+            <button class="btn btn-danger ml-5">Read More <i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+
+        <div class="col-md-6" id="section-1-2">
+            <div class="row">
+                <div class="col-12 col-md-6 mb-3" data-aos="flip-left">
+                    <div class="card shadow" style="width: 100%;">
+                        <div class="card-body">
+                            <i class="fa-solid fa-building" id="icons"></i>
+                            <h2>Residential View</h2>
+                            <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 mb-3" data-aos="flip-right">
+                    <div class="card shadow" style="width: 100%;">
+                        <div class="card-body">
+                            <i class="fa-solid fa-house-chimney-medical" id="icons"></i>
+                            <h2>Medical Insurance</h2>
+                            <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 mb-3" data-aos="flip-left">
+                    <div class="card shadow" style="width: 100%;">
+                        <div class="card-body">
+                            <i class="fa-solid fa-business-time" id="icons"></i>
+                            <h2>Business View</h2>
+                            <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 mb-3" data-aos="flip-right">
+                    <div class="card shadow" style="width: 100%;">
+                        <div class="card-body">
+                            <i class="fa-solid fa-arrow-trend-up" id="icons"></i>
+                            <h2>Marketing View</h2>
+                            <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------------------------ -->
+<div class="container-fluid" id="counter-container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="counter" data-target="232">
+                <h2>0</h2>
+                <p>Clients</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="counter" data-target="521">
+                <h2>0</h2>
+                <p>Projects</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="counter" data-target="1453">
+                <h2>0</h2>
+                <p>Hours Of Support</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="counter" data-target="32">
+                <h2>0</h2>
+                <p>Workers</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------------------------------------------------- -->
+    <div class="container-fluid text-center mt-5 mb-5">
+        <h1>Services</h1>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+    <!-- --- -->
+    <div class="container-fluid w-50 h-25 float-left" data-aos="fade-up">
+        <hr>
+        <i class="fa-solid fa-briefcase" id="icon"></i>
+        <a class="text-left" id="ancerTag" class="ml-1 pl-1">Lorem ipsum</a>
+        <p class="ml-5 pl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur ut dolorum eum numquam quaerat nobis
+            quidem minus.</p>
+        <hr>
+    </div>
+    <div class="container-fluid h-25 w-50 float-left" data-aos="fade-up">
+        <hr>
+        <i class="fa-regular fa-rectangle-list" id="icon"></i>
+        <a href="" id="ancerTag" class="ml-1 pl-1">Dolor Sitema</a>
+        <p class="ml-5 pl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur ut dolorum eum numquam quaerat nobis
+            quidem minus.</p>
+            <hr>
+    </div>
+    
+    <div class="container-fluid w-50 h-25 float-left" data-aos="fade-up">
+        <hr>
+        <i class="fa-solid fa-signal" id="icon"></i>
+        <a href="" id="ancerTag" class="ml-1 pl-1">Lorem ipsum</a>
+        <p class="ml-5 pl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur ut dolorum eum numquam quaerat nobis quidem minus.</p>
+        <hr>
+    </div>
+    <div class="container-fluid w-50 h-25 float-left" data-aos="fade-up">
+        <hr>
+        <i class="fa-solid fa-vr-cardboard" id="icon"></i>
+        <a href="" id="ancerTag" class="ml-1 pl-1">Lorem ipsum</a>
+        <p class="ml-5 pl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur ut dolorum eum numquam quaerat nobis
+            quidem minus.</p>
+        <hr>
+    </div>
+
+    <div class="container-fluid w-50 h-25 float-left" data-aos="fade-up">
+        <hr>
+        <i class="fa-regular fa-sun" id="icon"></i>
+        <a href="" id="ancerTag" class="ml-1 pl-1">Lorem ipsum</a>
+        <p class="ml-5 pl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur ut dolorum eum numquam quaerat nobis
+            quidem minus.</p>
+        <hr>
+    </div>
+    <div class="container-fluid w-50 h-25 float-left" data-aos="fade-up">
+        <hr>
+        <i class="fa-solid fa-calendar-days" id="icon"></i>
+        <a href="" id="ancerTag" class="ml-1 pl-1">Lorem ipsum</a>
+        <p class="ml-5 pl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur ut dolorum eum numquam quaerat nobis
+            quidem minus.</p>
+        <hr>
+    </div>
+
+    <!-- ----- -->
+    <div class="container-fluid text-center float-left mt-5 mb-5">
+        <h1>Features</h1>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+
+    <div class="container-fluid w-50 float-left p-5">
+        <h3 data-aos="fade-up">Corporis temporibus maiores provident</h3>
+        <p data-aos="fade-up">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+        <button class="btn btn-danger" data-aos="fade-up">Get Started</button>
+    </div>
+    <div class="container-fluid float-left w-50 p-2">
+        <img src="Assest/images/glasslamp.jpg" alt="" style="height: 300px; width: 500px;border: solid 5px white;;position: absolute;margin-top: 8%;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" data-aos="zoom-in">
+        <img src="Assest/images/staircase.webp" alt="" style="height: 400px; width: 550px;border: solid 5px white;position: absolute;z-index: -1;margin-left: 8%;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" data-aos="zoom-in">
+    </div>
+    <!-- ------------- -->
+    <div class="container-fluid float-left d-flex align-items-center justify-content-center" id="id1" style="margin-top: 15%; height: auto; width: 100%;">
+        <div class="container h-auto w-50 float-left">
+            <img src="Assest/images/decor.jpg" alt="" class="" style="height: 500px; width: 650px;border: solid 5px white;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; margin-left: 4%;" data-aos="zoom-in">
+        </div>
+        <!-- -- -->
+        <div class="container h-auto w-50 float-left" style="margin-left: 10%;"data-aos="fade-up">
+            <h2>Sunt consequatur ad ut est nulla</h2>
+            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia <br>
+                minima quod. Sunt saepe odit aut quia voluptatem hic voluptas <br> dolor doloremque.
+            </p>
+                <ul class="pl-5">
+                    <i class="fa-solid fa-check text-danger mr-2"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <br>
+                    <i class="fa-solid fa-check text-danger mr-2"></i>Duis aute irure dolor in reprehenderit in voluptate velit.
+                    <br>
+                    <i class="fa-solid fa-check text-danger mr-2"></i>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.
+                    <br>
+                </ul>
+                <button class="btn btn-danger ml-5 mt-2">Get Started</button>
+        </div>
+    </div>
+    <!-- ------------------------------ -->
+
+    <div class="container-fluid float-left h-auto w-100 mt-5 pt-5">
+        <h1 class="text-center">Portfolio</h1>
+        <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="container d-flex align-content-center justify-content-center mt-5 mb-5">
+            <button class="btn btn-danger mr-2">All</button>
+            <button class="btn btn-light mr-2">App</button>
+            <button class="btn btn-light mr-2">card</button>
+            <button class="btn btn-light mr-2">web</button>
+        </div>
+        <!-- --- -->
+        <div class="container d-flex align-content-center justify-content-center">
+            <img src="Assest/images/bottle.jpg" class="mr-5" alt="" style="height: 400px; width: 25%;" data-aos="fade-up">
+            <img src="Assest/images/chai-tea.jpg" alt="" class="ml-5" style="height: 300px; width: 30%;" data-aos="fade-up">
+            <img src="Assest/images/flower-pot.webp" class="ml-5" alt="" style="height: 400px; width: 25%;" data-aos="fade-up">
+        </div>
+        <!--  -->
+        <div class="container d-flex align-content-center justify-content-center">
+            <img src="Assest/images/stool.avif" class="mr-5 mt-5" alt="" style="height: 400px; width: 25%;" data-aos="fade-up">
+            <img src="Assest/images/lamp-wallpaper-8.jpg" alt="" class="ml-5" style="height: 500px; width: 30%;" data-aos="fade-up">
+            <img src="Assest/images/sun-glasses.jpg" class="ml-5" alt="" style="height: 300px; width: 25%;" data-aos="fade-up">
+        </div>
+        <!-- ---- -->
+        <div class="container d-flex align-content-center justify-content-center">
+            <img src="Assest/images/camera.jpg" alt="" style="height: 300px; width: 25%;" data-aos="fade-up">
+            <img src="Assest/images/watch.jpg" alt="" style="height: 400px; width: 50%;" data-aos="fade-up">
+            <img src="Assest/images/glass-juice.jpg" alt="" style="height: 400px; width: 30%;" data-aos="fade-up">
+        </div>
+    </div>
+    <!-- ----------------------------------- -->
+    <div class="container-fluid float-left h-auto w-100 mt-5 pt-5">
+        <h1 class="text-center">Pricing</h1>
+        <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+    <div class="container d-flex align-content-center justify-content-center h-auto w-100 p-5" data-aos="zoom-in">
+        <!-- 1 -->
+        <div class="card" style="width: 24rem; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;border-radius: 15px;">
+            <div class="card-body">
+                <h5 class="card-title text-center font-weight-bold">Free Plan</h5>
+                <img class="card-img-top" src="Assest/images/cube.jpg" alt="Card image cap" style="height: 100px; width: 40%;border-radius: 50%;margin-left: 28%;">
+                <h4 class="text-danger text-center">$0 <span style="color: gray; font-size: 20px;font-weight: normal;">/month</span></h4>
+                <br>
+                <br>
+                <p class="card-text">
+                    <i class="fa-solid fa-check text-success mr-2"></i> Quam adipiscing vitae proin
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-check text-success mr-2"></i> Nec feugiat nisl pretium
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-check text-success mr-2"></i> Nulla at volutpat diam uteera
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-xmark text-dark mr-2"></i></i><del>Pharetra massa massa ultricies</del>
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-xmark text-dark mr-2"></i></i><del>Massa ultricies mi quis hendrerit</del>
+                    <br>
+                    <br>
+                
+                </p>
+                <a href="#" class="btn btn-danger d-flex align-items-center justify-content-center m-5">Buy Now</a>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="card ml-5" style="width: 24rem;border: solid 2px red; border-radius: 15px;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+            <div class="card-body">
+                <h5 class="card-title text-center font-weight-bold">Business Plan</h5>
+                <img class="card-img-top" src="Assest/images/rocket-sign.jpg" alt="Card image cap"
+                style="height: 100px; width: 40%;border-radius: 50%;margin-left: 27%;">
+                <h4 class="text-danger text-center">$29 <span style="color: gray; font-size: 20px;font-weight: normal;">/month</span></h4>
+                <br>
+                <br>
+                <p class="card-text">
+                    <i class="fa-solid fa-check text-success mr-2"></i> Quam adipiscing vitae proin
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-check text-success mr-2"></i> Nec feugiat nisl pretium
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-check text-success mr-2"></i> Nulla at volutpat diam uteera
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-check text-success mr-2"></i><del>Pharetra massa massa ultricies</del>
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-check text-success mr-2"></i><del>Massa ultricies mi quis hendrerit</del>
+                    <br>
+                    <br>
+        
+                </p>
+                <a href="#" class="btn btn-danger d-flex align-items-center justify-content-center m-5">Buy Now</a>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="card ml-5" style="width: 24rem; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;border-radius: 15px;">
+            <div class="card-body">
+                <h5 class="card-title text-center font-weight-bold">Developer Plan</h5>
+                <img class="card-img-top" src="Assest/images/message-sender.png" alt="Card image cap" style="height: 100px; width: 40%;border-radius: 36%;margin-left: 26%;">
+                <h4 class="text-danger text-center">$49 <span style="color: gray; font-size: 20px;font-weight: normal;">/month</span></h4>
+                <br>
+                <br>
+                <p class="card-text">
+                    <i class="fa-solid fa-check text-success mr-2"></i> Quam adipiscing vitae proin
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-check text-success mr-2"></i> Nec feugiat nisl pretium
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-check text-success mr-2"></i> Nulla at volutpat diam uteera
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-check text-success mr-2"></i><del>Pharetra massa massa ultricies</del>
+                    <br>
+                    <br>
+                    <i class="fa-solid fa-check text-success mr-2"></i><del>Massa ultricies mi quis hendrerit</del>
+                    <br>
+                    <br>
+                </p>
+                <a href="#" class="btn btn-danger d-flex align-items-center justify-content-center m-5">Buy Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------- -->
+
+    <div class="container d-flex align-items-center justify-content-center mt-4 mb-4">
+            <div class="float: left" style="width: 30%;" data-aos="fade-up">
+                <h1 class="text-left">Frequently Asked</h1>
+                <h2 class="text-left">Questions</h2>
+                <p class="text-left">Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br> 
+                    incididunt ut labore et dolore magna aliqua. <br> 
+                    Duis aute irure dolor in reprehenderit</p>
+            </div>
+            <!--  -->
+            <div class="" style="height: auto; width: 70%;margin-top: 10%;margin-left: 8%;" data-aos="fade-up">
+                <div class="accordion" id="accordionExample">
+                    <div class="card mb-3" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style=" color: #E94B4C;font-weight: bold;">
+                                    1. Non consectetur a erat nam at lectus urna duis?
+                                </button>
+                            </h2>
+                        </div>
+                
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis
+                                lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="card mb-3" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style=" color: #E94B4C;font-weight: bold;">
+                                    2. <span class="text-dark">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</span>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices.
+                                Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                                ultrices eros in cursus turpis massa tincidunt dui.
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="card mb-3" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style=" color: #E94B4C;font-weight: bold;">
+                                    3. <span class="text-dark"> Dolor sit amet consectetur adipiscing elit pellentesque?</span>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                                nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis
+                                convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="card mb-3" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"
+                                    style=" color: #E94B4C;font-weight: bold;">
+                                    4. <span class="text-dark"> Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</span>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices.
+                            Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                            ultrices eros in cursus turpis massa tincidunt dui.
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="card mb-3" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <div class="card-header" id="headingFive">
+                            <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"
+                                    style=" color: #E94B4C;font-weight: bold;">
+                                    5. <span class="text-dark"> Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</span>
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                                viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+            </div>
+    </div>
+    </section>
+    <!-- ----------------------------------------------------- -->
+    <section>
+        <div class="container">
+            <h1 class="text-center">Team</h1>
+            <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <!--  -->
+
+            <div class="container float-left d-flex align-items-center justify-content-around mt-5">
+                <div class="container-fluid h-25 w-25" data-aos="fade-up">
+                    <img src="Assest/images/employee1.jpg" alt="" style="border-radius: 50%;height: 260px; width: 100%;border: 2px solid white;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" class="img-thumbnail">
+                    <h4 class="text-center font-weight-bold">Helly peter</h4>
+                    <p class="text-center">Chief Executive Officer</p>
+                    <p class="text-center">Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
+                </div>
+                <!--  -->
+                <div class="container-fluid h-25 w-25" data-aos="fade-up">
+                    <img src="Assest/images/emplyee2.avif" alt=""
+                        style="border-radius: 50%;height: 260px; width: 100%;border: 2px solid white;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
+                        class="img-thumbnail">
+                    <h4 class="text-center font-weight-bold">Sarah Jhonson</h4>
+                    <p class="text-center">Product Manager</p>
+                    <p class="text-center">Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
+                </div>
+                <!--  -->
+                <div class="container-fluid h-25 w-25" data-aos="fade-up">
+                    <img src="Assest/images/employee3.webp" alt=""
+                        style="border-radius: 50%;height: 260px; width: 100%;border: 2px solid white;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
+                        class="img-thumbnail">
+                    <h4 class="text-center font-weight-bold">William Anderson</h4>
+                    <p class="text-center">CTO</p>
+                    <p class="text-center">Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="container float-left d-flex align-items-center justify-content-around mt-5 mb-2">
+                <div class="container-fluid h-25 w-25" data-aos="fade-up">
+                    <img src="Assest/images/employee4.webp" alt=""
+                        style="border-radius: 50%;height: 260px; width: 100%;border: 2px solid white;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
+                        class="img-thumbnail">
+                    <h4 class="text-center font-weight-bold">Walter White</h4>
+                    <p class="text-center">Accountant</p>
+                    <p class="text-center">Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
+                </div>
+            
+                <!--  -->
+            <div class="container-fluid h-25 w-25" data-aos="fade-up">
+                <img src="Assest/images/employee5.webp" alt=""
+                    style="border-radius: 50%;height: 260px; width: 100%;border: 2px solid white;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
+                    class="img-thumbnail">
+                <h4 class="text-center font-weight-bold">Amanda Jepson</h4>
+                <p class="text-center">Marketing</p>
+                <p class="text-center">Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio
+                    dire flow</p>
+            </div>
+                <!--  -->
+                <div class="container-fluid h-25 w-25" data-aos="fade-up">
+                    <img src="Assest/images/employee6.avif" alt=""
+                        style="border-radius: 50%;height: 260px; width: 100%;border: 2px solid white;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"
+                        class="img-thumbnail">
+                    <h4 class="text-center font-weight-bold">Josepha Palas</h4>
+                    <p class="text-center">Operation</p>
+                    <p class="text-center">Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio
+                        dire flow</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- ----------------------------------- -->
+    <section class="m-0 p-0 w-100">
+        <div>
+            <img src="Assest/images/background-image.png" alt="" class="img-fluid" style="height: 400px; width: 100%;">
+        </div>
+        <div class="container-fluid w-100 h-auto m-0 p-0">
+            <h2 class="text-center text-light" style="position: absolute;margin-top: -20%;margin-left: 42%;">Call To Action</h2>
+            <p class="text-center text-light" style="position: absolute;margin-top: -16%;margin-left: 4%; margin-right: 4%;" >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="" style="position: absolute;margin-top: -10%;margin-left: 44%;">
+                <button class="btn btn-danger">Call To Action</button>
+            </div>
+        </div>
+    </section>
+        <!-- --------------------------------- -->
+
+<section class="mt-2 mb-5">
+    <div class="container-fluid">
+        <h1 class="text-center mt-5">Recent Posts</h1>
+        <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    
+        <div class="row justify-content-around mt-4">
+            <!-- First Card -->
+            <div class="col-md-3">
+                <div class="card h-100" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <img src="Assest/images/working-professional.jpg" class="card-img-top" alt="Working Professional">
+                    <div class="card-body">
+                        <p class="text-muted">Politics</p>
+                        <h3 class="card-title">Dolorum optio tempore voluptas dignissimos</h3>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Second Card -->
+            <div class="col-md-3">
+                <div class="card h-100" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <img src="Assest/images/sport.jpg" class="card-img-top" alt="Working Professional">
+                    <div class="card-body">
+                        <p class="text-muted">Sports</p>
+                        <h3 class="card-title">Dolorum optio tempore voluptas dignissimos</h3>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Third Card -->
+            <div class="col-md-3">
+                <div class="card h-100" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    <img src="Assest/images/happy-employee.jpg" class="card-img-top" alt="Working Professional">
+                    <div class="card-body">
+                        <p class="text-muted">Entertainment</p>
+                        <h3 class="card-title">Dolorum optio tempore voluptas dignissimos</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ------------------------------------------------------------- -->
+
+<!-- -------------------------------footer----------------------------------------- -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <h3>Company</h3>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
+                darta donna mare fermentum iaculis eu non diam phasellus.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">Privacy policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-services">
+            <h4>Our Services</h4>
+            <ul>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Product Management</a></li>
+                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Graphic Design</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p>A108 Adam Street<br>New York, NY 535022<br>United States</p>
+            <p><strong>Phone:</strong> +1 5589 55488 55<br><strong>Email:</strong> info@example.com</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; Copyright <strong>Design</strong> All Rights Reserved</p>
+        <p>Designed by <a href="#">Neelam Koli</a></p>
+    </div>
+</footer>
+
+<!-- -------------------------------------------------------------------------- -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const counters = document.querySelectorAll('.counter');
+
+        counters.forEach(counter => {
+            const target = parseInt(counter.getAttribute('data-target'));
+            let count = 0;
+            const speed = 400; // Duration in milliseconds
+
+            const updateCounter = () => {
+                const increment = target / (speed / 10); // Increment per 10ms
+                count += increment;
+
+                if (count < target) {
+                    counter.querySelector('h2').textContent = Math.ceil(count);
+                    setTimeout(updateCounter, 10); // Update every 10ms
+                } else {
+                    counter.querySelector('h2').textContent = target;
+                }
+            };
+
+            updateCounter();
+        });
+    });
+</script>
+</body>
+<script>
+    AOS.init();
+</script>
+   
+</html>
