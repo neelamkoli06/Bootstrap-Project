@@ -31,7 +31,7 @@
 <body>
     <!-- -----------navbar------------------------- -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 100px;">
             <a class="navbar-brand" href="#">Company</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,19 +44,22 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Service</a>
+                        <a class="nav-link" href="#services">Service</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Team</a>
+                        <a class="nav-link" href="#pricing">Pricing</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#blog">Blog</a>
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -80,7 +83,7 @@
                         </div>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link">Contact</a>
+                        <a class="nav-link"  href="#contact">Contact</a>
                     </li>
                 </ul>
                 <button class="btn btn-danger float-right">Get Started</button>
@@ -122,7 +125,7 @@
     </div>
 
 <!-- ------------------------- -->
-<div class="container-fluid">
+<div class="container-fluid" id="about">
     <div class="row">
         <div class="col-md-6 p-5" id="section-1-1">
             <div id="card1" class="m-5">About Us</div>
@@ -208,7 +211,7 @@
     </div>
 </div>
 <!-- --------------------------------------------------------------- -->
-    <div class="container-fluid text-center mt-5 mb-5">
+    <div class="container-fluid text-center mt-5 mb-5" id="services">
         <h1>Services</h1>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
     </div>
@@ -303,7 +306,7 @@
     </div>
     <!-- ------------------------------ -->
 
-    <div class="container-fluid float-left h-auto w-100 mt-5 pt-5">
+    <div class="container-fluid float-left h-auto w-100 mt-5 pt-5" id="portfolio">
         <h1 class="text-center">Portfolio</h1>
         <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         <div class="container d-flex align-content-center justify-content-center mt-5 mb-5">
@@ -332,7 +335,7 @@
         </div>
     </div>
     <!-- ----------------------------------- -->
-    <div class="container-fluid float-left h-auto w-100 mt-5 pt-5">
+    <div class="container-fluid float-left h-auto w-100 mt-5 pt-5" id="pricing">
         <h1 class="text-center">Pricing</h1>
         <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
     </div>
@@ -536,7 +539,7 @@
     </section>
     <!-- ----------------------------------------------------- -->
     <section>
-        <div class="container">
+        <div class="container" id="team">
             <h1 class="text-center">Team</h1>
             <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             <!--  -->
@@ -618,7 +621,7 @@
     </section>
         <!-- --------------------------------- -->
 
-<section class="mt-2 mb-5">
+<section class="mt-2 mb-5" id="blog">
     <div class="container-fluid">
         <h1 class="text-center mt-5">Recent Posts</h1>
         <p class="text-center">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -660,7 +663,30 @@
     </div>
 </section>
 
-    <!-- ------------------------------------------------------------- -->
+    <!-- -----------------------contact form-------------------------------------- -->
+<div class="container" id="contact">
+    <h1 class="text-center my-5">Contact Us</h1>
+    <form action="">
+        <div class="form-group">
+            <label for="name" class="font-weight-bold my-3">Enter Your Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required>
+        </div>
+        <div class="form-group">
+            <label for="email" class="font-weight-bold my-3">Enter Your Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Your Email" required>
+        </div>
+        <div class="form-group">
+            <label for="subject" class="font-weight-bold my-3">Subject:</label>
+            <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group">
+            <label for="message" class="font-weight-bold my-3">Message:</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-danger my-4">Send Message</button>
+    </form>
+</div>
+
 
 <!-- -------------------------------footer----------------------------------------- -->
 <footer>
